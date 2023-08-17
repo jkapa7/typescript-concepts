@@ -218,3 +218,19 @@ const gameBoard: GameBoard = [
 type RGB = [number, number, number];
 
 const rgb: RGB = [3, 6, 7];
+
+//
+
+//
+
+//TYPES AND INTERFACES
+
+//INTERFACES CANT BE USED TO ALIAS A PRIMITIVE TYPE ONLY WORKS WITH OBJECTS
+
+//interface Test = boolean ❌
+//interface Test2 = boolean | number | null ❌
+
+//TYPES CAN BE USED TO ALIAS A PRIMITIVE TYPE
+
+//type Test = boolean ✅
+//type Test2 = boolean | number | null ✅
